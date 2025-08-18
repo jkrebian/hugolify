@@ -20,7 +20,7 @@ jobs:
     env:
       DART_SASS_VERSION: latest
       GO_VERSION: 1.25.0
-      HUGO_VERSION: hugomods/hugo:exts
+      HUGO_VERSION: 0.148.0
       NODE_VERSION: latest
       TZ: Europe/London
     steps:
