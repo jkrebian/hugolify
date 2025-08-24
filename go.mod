@@ -1,4 +1,4 @@
-module github.com/jkrebian/jkrebian.github.io
+module github.com/jkrebian/hugolify
 
 go 1.25.0
 
