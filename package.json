@@ -1,15 +1,15 @@
 {
-  "name": "jkrebian-github-io",
+  "name": "hugolify",
   "version": "1.0.0",
-  "homepage": "https://jkrebian.github.io",
-  "repository": "https://github.com/jkrebian/jkrebian.github.io",
+  "homepage": "https://cancerian.qzz.io",
+  "repository": "https://github.com/jkrebian/hugolify.git",
   "bugs": {
-    "url": "https://github.com/jkrebian/jkrebian.github.io/issues"
+    "url": "https://github.com/jkrebian/hugolify/issues"
   },
   "author": {
     "email": "sirchanmp@hacari.net",
     "name": "John Krebian",
-    "url": "https://jkrebian.github.io/"
+    "url": "https://cancerian.qzz.io/"
   },
   "license": "MIT",
   "devDependencies": {
