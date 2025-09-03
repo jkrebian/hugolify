@@ -6,3 +6,18 @@
   - type: PUSH
   fail_on_prepare_env_warning: true
   arch: ARM64
+  actions:
+  - action: 'hugo --gc --minify '
+    type: BUILD
+    docker_image_name: library/ubuntu
+    docker_image_tag: 20.04
+    execute_commands:
+    - 'hugo --gc --minify '
+    setup_commands:
+    - apt-get update && apt-get install -y wget
+    - wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_linux-amd64.deb
+    - "#extended"
+    - "#wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_extended_0.142.0_linux-amd64.deb"
+    - dpkg -i hugo.deb
+    - rm hugo.deb
+    shell: BASH
