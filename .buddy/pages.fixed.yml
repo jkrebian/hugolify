@@ -4,6 +4,7 @@
   - refs/heads/main
   events:
   - type: PUSH
+  disabled: true
   terminate_stale_runs: true
   fetch_all_refs: true
   fail_on_prepare_env_warning: true
