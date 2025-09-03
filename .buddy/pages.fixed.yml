@@ -4,7 +4,10 @@
   - refs/heads/main
   events:
   - type: PUSH
+  terminate_stale_runs: true
+  fetch_all_refs: true
   fail_on_prepare_env_warning: true
+  concurrent_pipeline_runs: true
   arch: ARM64
   actions:
   - action: 'hugo --gc --minify '
